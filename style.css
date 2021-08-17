@@ -1,0 +1,56 @@
+table {
+    max-height:200px;
+    max-width:200px;
+    margin:0 auto;
+}
+.table__game-menus{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.table__game-menus p {
+    text-align: center;
+    border:1px solid black;
+    border-radius: 10px;
+    width:130px;
+    transition: 0.4s;
+    margin:5px;
+}
+.table__game-menus p:hover {
+    background-color: aquamarine;
+}
+
+.red {
+    background-color:red;
+    /* visibility: hidden; */
+
+}
+.green {
+    background-color:green;
+}
+
+.bomb {}
+
+.table__game {
+    position:relative;
+}
+
+.modal {
+    top: 10px;
+    right: 10px ;
+    min-height:200px;
+    min-width:250px;
+    border:2px solid black;
+    position:absolute;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.resultsTable__text {
+    text-align: center;
+}
+.modal__info-text h3 {
+    padding-left:20px;
+}

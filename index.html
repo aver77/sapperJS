@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интуиция</title>
+</head>
+<body>
+<div class="table__game">
+    <table border="1" cellspacing="0" cellpadding="20">
+        <tr>
+            <td><td><td><td></td></td></td></td>
+        </tr>
+        <tr>
+            <td><td><td><td></td></td></td></td>
+        </tr>
+        <tr>
+            <td><td><td><td></td></td></td></td>
+        </tr>
+        <tr>
+            <td><td><td><td></td></td></td></td>
+        </tr>
+    </table>
+
+    <span class="table__game-menus">
+        <p class="table__game-restart">Начать заново!</p>
+        <p class="table__game-getResults">Результаты:</p>
+    </span>
+</div>
+
+<div class="modal hide">
+    <div class="modal__info-text">
+        <h2 class="resultsTable__text">Результаты:</h2><br>
+        <h3>Победы:<p class="resultsTable-wins">0</p><h3>
+        <h3>Поражения:<p class="resultsTable-losses">0</p><h3>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
